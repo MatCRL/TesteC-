@@ -1,0 +1,11 @@
+CREATE DATABASE documentos;
+use documentos;
+
+CREATE TABLE `documento` (
+  `id` int(11) NOT NULL ,
+  `titulo` varchar(45) NOT NULL,
+  `processo` varchar(45) ,
+  `categoria` varchar(45) NOT NULL,
+  `arquivo` varchar(45) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB ;
